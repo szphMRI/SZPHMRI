@@ -1,0 +1,9 @@
+pydantic>=2.6
+PyYAML>=6.0
+numpy>=1.26
+rank-bm25>=0.2.2
+pydicom>=2.4
+SimpleITK>=2.3
+matplotlib>=3.8
+Pillow>=10.0
+pytest>=8.0
