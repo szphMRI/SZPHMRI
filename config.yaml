@@ -1,0 +1,22 @@
+app:
+  name: mri-report-gen
+  version: 0.1.0
+  hospital_name: 深圳市人民医院医学影像中心
+
+knowledge_base:
+  path: data/knowledge_base.jsonl
+
+retrieval:
+  top_k_keyword: 10
+  top_k_vector: 10
+  final_k: 5
+  min_rerank_score: 0.45
+  embed_dim: 768
+
+report:
+  min_evidence_level_rank: 3
+  disclaimer: 本报告仅供临床参考，最终诊断以医师审核及病理/临床金标准为准。
+
+visualization:
+  output_dir: outputs/figures
+  alpha: 0.45
